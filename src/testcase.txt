@@ -1,0 +1,31 @@
+main() {
+ yesout -> "Input Int, Float, String,  Boolean or Null : ";
+ yesin <- a;
+ yesout -> "a = " -> a;
+ yesout -> "==========================================";
+ yesout -> "Input 1 dimension array size : ";
+ yesin <- size;
+ yesout -> "Input 1 dimension array : ";
+ a = {0};
+ for(i=0; i<size; i++) {
+  yesin <- a[i];
+ }
+ for(i=0; i<size; i++) {
+  yesout -> "a[" -> i -> "] = " -> a[i];
+ }
+ yesout -> "==========================================";
+ yesout -> "Input 2 dimension array second size : ";
+ yesin <- ssize;
+ yesout -> "Input 2 dimension array : ";
+ a = {{0}};
+ for(i=0; i<1; i++) {
+  for(j=0; j<ssize; j++) {
+   yesin <- a[i][j];
+  }
+ }
+ for(i=0; i<1; i++) {
+  for(j=0; j<ssize; j++) {
+   yesout -> "a[" -> i -> "][" -> j -> "] = " -> a[i][j];
+  }
+ }
+}

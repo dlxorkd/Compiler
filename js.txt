@@ -1,0 +1,1 @@
+java -Dnashorn.args=-scripting CodeGenerator test.js
